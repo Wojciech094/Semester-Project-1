@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/visit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Maitree:wght@200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Maitree:wght@200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Museum</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <div class="logo"><img class="logo" src="Media/Img/logo.svg" width="50px" height="50px" alt="logo"></div>
+            <ul class="nav-bar" id="nav-bar">
+                <li><a href="index.html" aria-label="EXPLORE">EXPLORE</a></li>
+                <li><a href="learning.html" aria-label="LEARNING BY DOING">LEARNING BY DOING</a></li>
+                <li><a href="our.html" aria-label="OUR MUSEUM">OUR MUSEUM</a></li>
+                <li><a href="visit.html" aria-label="VISIT OUR MUSEUM">VISIT OUR MUSEUM</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
+    <div class="visit-wrapper">
+        <div class="visit-container">
+
+            <div class="info-section">
+                <a href="index.html" class="back-link">&larr; Back to explore</a>
+                <h1 class="visit-h1">Visit our museum</h1>
+                <p class="visit-text-p">Your adventure begins here. Secure your tickets today and dive into a world of
+                    discovery, innovation, and wonder at the Science Discovery Museum.</p>
+                <h2 class="visit-h2">Opening Hours</h2>
+                <ul class="visit-list">
+                    <li>Monday: Closed</li>
+                    <li>Tuesday - Friday: 10:00 AM - 6:00 PM</li>
+                    <li>Saturday: 10:00 AM - 8:00 PM</li>
+                    <li>Sunday: 11:00 AM - 5:00 PM</li>
+                </ul>
+                <h3 class="visit-h3">Special Hours:</h3>
+                <ul class="visit-list">
+                    <li>Open on public holidays: 10:00 AM - 5:00 PM</li>
+                    <li>Closed on Christmas Day and New Year's Day</li>
+                </ul>
+                <h3 class="visit-h3">Where to find us:</h3>
+                <p class="visit-p">The science street, 45-782, Cosmos</p>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3998.2676459758964!2d10.753383777303709!3d59.92992156280211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e625bebdd55%3A0x87598940160b87fa!2sNoroff%20Oslo!5e0!3m2!1spl!2sno!4v1732780494031!5m2!1spl!2sno"
+                        width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+
+            <div class="ticket-section">
+                <img src="Media/Img/image-21.jpg" alt="Robotic hand reaching out" class="robot-image">
+                <h2 class="visit-h2">Buy ticket</h2>
+                <p class="visit-p">Tell us how many visitors will visit us this time!</p>
+                <form class="visit-form">
+                   
+                    <div class="visit-ticket">
+                        <div class="form-row">
+                            <label class="visit-label">Adults</label>
+                            <div class="quantity-control">
+                                <button class="visit-button-left" type="button">-</button>
+                                <input type="number" min="0" value="0">
+                                <button class="visit-button-right" type="button">+</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                   
+                    <div class="visit-ticket">
+                        <div class="form-row">
+                            <label class="visit-label">Youth 12 - 17</label>
+                            <div class="quantity-control">
+                                <button class="visit-button-left" type="button">-</button>
+                                <input type="number" min="0" value="0">
+                                <button class="visit-button-right" type="button">+</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    
+                    <div class="visit-ticket">
+                        <div class="form-row">
+                            <label class="visit-label">Children 5 - 11</label>
+                            <div class="quantity-control">
+                                <button class="visit-button-left" type="button">-</button>
+                                <input type="number" min="0" value="0">
+                                <button class="visit-button-right" type="button">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            
+                   
+                   
+                    <div class="visit-ticket">
+                        <label for="visit-date">Date of your visit</label>
+                        <input type="datetime-local" id="visit-date">
+                    </div>
+                    
+                    
+
+                    <div class="switch-container">
+                        <h3 class="switch-label">Send the reminder</h3>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <span>We will remind you 48 hours before about your visit to <br> make sure that you won't miss your appointment</span>
+                    
+                    <div class="visit-ticket special-needs">
+                        <label for="special-needs">Any special needs?</label>
+                        <span>Is there anything we can assist you to accommodate <br> your needs? Let's us know!</span>
+                        <select id="special-needs">
+                            <option value="none">None</option>
+                            <option value="wheelchair">Wheelchair access</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+
+                    <button type="submit" class="buy-button">Buy, explore and enjoy</button>
+                </form>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-container">
+                <div class="logo"><img src="Media/Img/logo-2.svg" width="50px" height="50px" alt="logo"></div>
+                <nav class="footer-nav">
+                    <a href="#about-us">About Us</a>
+                    <a href="#offer">Offer</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#policy">Policy</a>
+                    <a href="#values">Values and purpose</a>
+                </nav>
+                <div class="social-icons">
+                    <a href="#facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2024 The Community Science Museum. All Rights Reserved.</p>
+                <p><a href="#privacy-policy">Privacy Policy</a> | <a href="#terms-of-use">Terms of Use</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        document.querySelectorAll('.quantity-control button').forEach(button => {
+                button.addEventListener('click', function () {
+                    const input = this.parentNode.querySelector('input');
+                    let value = parseInt(input.value) || 0;
+                    if (this.textContent === '+') {
+                        input.value = value + 1;
+                    } else if (this.textContent === '-' && value > 0) {
+                        input.value = value - 1;
+                    }
+                });
+            });
+
+
+            const burger = document.getElementById('burger');
+            const navBar = document.getElementById('nav-bar');
+
+            if (burger && navBar) {
+                burger.addEventListener('click', () => {
+                    navBar.classList.toggle('active');
+                });
+            }
+    </script>
+
+  
+
+    
+
+</body>
+
+</html>

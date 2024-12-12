@@ -1,0 +1,278 @@
+
+@import "nav-footer.css";
+
+
+
+
+body {
+    margin: 0;
+   font-family: "Roboto", sans-serif;
+    
+    background-color: black; 
+}
+
+
+.visit-wrapper {
+    background-color: black;
+}
+
+
+.visit-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 50px;
+    max-width: 1400px;
+    margin: auto;
+    
+}
+
+
+.info-section {
+    max-width: 40%;
+    padding-right: 20px;
+	color: var(--bg-white);
+}
+
+.visit-h1 {
+    font-size: var(--fs-XXL);
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.visit-text-p {
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+.visit-h2, .visit-h3 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+}
+
+.visit-h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+
+.ticket-section {
+    background: var(--bg-white);
+    border-radius: 15px;
+    padding: 20px;
+    width: 40%;
+    color: black;
+    
+}
+
+
+.visit-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.visit-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.visit-button-left, .visit-button-right {
+    background: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.visit-button-left {
+    border-radius: 50px 0 0 50px;
+}
+
+.visit-button-right {
+    border-radius: 0 50px 50px 0;
+}
+
+.quantity-control input {
+    width: 40px;
+    height: 29px;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+#visit-date, #special-needs {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.special-needs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+.buy-button {
+    display: block;
+    width: 100%;
+    background: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buy-button:hover {
+    background: #574ddb;
+    transform: scale(1.05);
+}
+
+
+.map iframe {
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 100%;
+   
+}
+
+
+.robot-image {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+
+.back-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+.switch-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.switch-label {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 25px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 19px;
+    width: 19px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #4caf50;
+}
+
+input:checked + .slider:before {
+    transform: translateX(25px);
+}
+
+
+.form-row {
+    display: flex;
+	text-align: center;
+    justify-content: space-between;
+    
+}
+
+.visit-label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.visit-list{
+    list-style-position: inside;
+}
+.quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visit-ticket {
+    margin-bottom: 20px; 
+}
+
+
+@media (max-width: 987px) {
+    .visit-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .info-section, .ticket-section {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .buy-button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
