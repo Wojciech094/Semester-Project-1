@@ -230,6 +230,7 @@ footer {
 
 	.nav-bar.active {
 		transform: translateY(0);
+		top: 70px;
 	}
 }
 

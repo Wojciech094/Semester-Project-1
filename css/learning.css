@@ -1,16 +1,21 @@
 @import 'nav-footer.css'; 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 body {
     background-color: black;
     font-family: "Roboto", sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0 ;
     color: white;
 }
 
 .learning-wrapper {
     max-width: 1600px;
-    
+    padding: 20px;
     margin: auto;
     
 }
@@ -122,9 +127,7 @@ ol{
 
 
 @media (max-width: 768px) {
-    body{
-        margin: 20px;
-    }
+    
     .learning-header {
         flex-direction: column;
        
