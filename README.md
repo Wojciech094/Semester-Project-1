@@ -157,3 +157,55 @@ Make sure you go through this checklist before submitting your project to Moodle
 
 - _YOURE_NAME_ (@_your_github_username_)
 - Monde Sineke (@S3ak)
+
+
+
+
+# Semester Project 1 – Museum Website
+
+This is my Semester Project 1 submission for the Noroff Front-End Development course.
+
+The goal of the project was to create a fictional educational website for a museum, focused on accessibility, responsiveness and user-friendly layout using HTML, CSS and JavaScript.
+
+
+
+# Live Site
+
+ [https://museumproject.netlify.app/](https://museumproject.netlify.app/)
+
+# GitHub Repository
+
+[https://github.com/Wojciech094/semester-project-1](https://github.com/Wojciech094/semester-project-1)
+
+
+
+
+
+# Built With
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Git & GitHub
+- Netlify (for deployment)
+
+
+
+# Reflection
+
+This project is part of my Portfolio 1 submission.  
+In the updated version I have made the following improvements:
+
+- Improved accessibility: added semantic elements and better alt text
+- Enhanced layout and responsiveness using flexbox and media queries
+- Simplified file structure and cleaned up CSS
+- Removed unused assets and code
+
+See more in my [`reflections.pdf`](https://github.com/Wojciech094/portfolio) inside my portfolio repository.
+
+
+
+# Contact
+
+- Email: [WPLesniak@hotmail.com](mailto:WPLesniak@hotmail.com)  
+- GitHub: [https://github.com/Wojciech094](https://github.com/Wojciech094)
